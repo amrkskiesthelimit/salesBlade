@@ -1,0 +1,34 @@
+body{
+    background-color: lightgrey;
+}
+.hero{
+    background-image: url('../images/bg.jpg'); 
+    margin-top: 10px;
+}
+h2{
+    font-size: 100px;
+    color: rgb(237, 228, 228);
+    text-shadow: rgb(red, green, blue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card1{
+    background-color: rgb(233, 242, 234);
+}
+.card2{
+    background-color: rgb(233, 242, 234);
+    
+}
+.card3{
+    background-color: rgb(233, 242, 234);
+}
+
+.card-title{
+    color: rgb(8, 8, 8);
+}
+
+.index{
+    margin-top: 20px;
+}
+p{
+    text-align: justify;
+}
