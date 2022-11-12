@@ -11,26 +11,27 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        $data = [
+        $data =[
+
             [
-                'category'=> "Beverages",
-                'description'=>'All drinkable items',
+                'Category'=> "custom",
+                'description'=>'A custom motorcycle is a motorcycle with stylistic and/or structural changes .',
             ],
             [
-                'category'=> "Medicine",
-                'description'=>'All drinkable items',
+                'Category'=> "military",
+                'description'=>'The use of motorcycles in a military context is hardly new, German and Russian forces ',
             ],
             [
-                'category'=> "Food",
-                'description'=>'All food items',
+                'Category'=> "Concept",
+                'description'=>'Concept motorcycles are known to display sleekness at their best.',
             ],
             [
-                'category'=> "Accessories",
-                'description'=>'All personal accessories items',
+                'Category'=> "sports",
+                'description'=>'A sport bike (sports motorcycle, or sports bike) is a motorcycle designed and optimized for speed.',
             ],
             [
-                'category'=> "Condiments",
-                'description'=>'All condiment items',
+                'Category'=> " minibikes",
+                'description'=>'Pocketbikes are small, two wheeled recreational vehicles.',
             ],
         ];
         foreach($data as $c){

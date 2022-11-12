@@ -13,24 +13,24 @@ class UnitSeeder extends Seeder
     {
         $data = [
             [
-                'unit_type'=> "kilograms",
-                'description'=>'English weight Unit',
+                'unit_type'=> "standard",
+                'description'=>'A standard combines an upright seating position with the handlebar ',
             ],
             [
-                'unit_type'=> "pieces",
-                'description'=>'Piece by piece items',
+                'unit_type'=> "cruiser",
+                'description'=>'A cruiser motorcycle is a motorcycle in the style of American machines',
             ],
             [
-                'unit_type'=> "bottles",
-                'description'=>'Unit for the bottled beverages',
+                'unit_type'=> "touring",
+                'description'=>'Touring motorcycles commonly have large displacement fairings and windshields .',
             ],
             [
-                'unit_type'=> "dozens",
-                'description'=>'Units of group of twelve',
+                'unit_type'=> "sports",
+                'description'=>'A sport bike (sports motorcycle, or sports bike) is a motorcycle designed and optimized for speed',
             ],
             [
-                'unit_type'=> "bunch",
-                'description'=>'Unit of items in bunch',
+                'unit_type'=> " off-road",
+                'description'=>'Off-road motorcycles, also known as · dirt bikes or · scramblers',
             ],
         ];
         foreach($data as $u){
